@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Javascript</title>
+    <script src="switch.js"></script>
+</head>
+
+<body>
+    <script>
+        // membuat variabel nilai yang valuenya yaitu : A
+        const nilai = "B"
+
+        // melakukan pengkondisian ketika nilai diatas yaitu : B
+        switch (nilai) {
+            case "A":
+                // hasilnya
+                alert("Sangat Bagus");
+                break;
+            case "B":
+                // hasilnya
+                alert("Bagus");
+                break;
+            case "C":
+                // hasilnya
+                alert("Sangat Cukup");
+                break;
+            case "D":
+                // hasilnya
+                alert("Cukup");
+                break;
+            default:
+                // hasilnya
+                alert("Tidak Bagus");
+                break;
+        }
+        // outputnya : Bagus
+
+
+        // membuat variabel mat
+        let mat = "D";
+
+        // melakukan pengkondisian ketika nilai mat yaitu D maka
+        if (mat === "A") {
+            // hasilnya
+            console.info("Sudah Baik");
+        } else if (mat === "B" || mat === "C") {
+            // hasilnya
+            console.info("Cukup");
+        } else {
+            // hasilnya
+            console.info("Tidak Lulus");
+        }
+        // outputnya : Tidak Lulus
+    </script>
+</body>
+
+</html>
